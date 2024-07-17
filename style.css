@@ -4,3 +4,34 @@ body{
     font-size: 29px;
     text-shadow: 2px 2px 1px rgb(223, 179, 114);
 }
+form{
+    height: auto;
+    width: 30vw;
+    box-shadow: 0 0 1px rgb(206, 173, 112);
+    border-radius: 5px;
+    padding: 8px;
+}
+form input{
+    height: 25px;
+    width: 80%;
+    padding: 3px 10px;
+    margin: 5px 10px;
+    border: 1px solid rgb(102, 101, 101);
+    outline: none;
+    border-radius: 5px;
+}
+form input:hover{
+    border: 1.3px solid black;
+}
+form button{
+    height: 30px;
+    width: 100px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: wheat;
+}
+form button:hover{
+    scale: 1.18;
+}
